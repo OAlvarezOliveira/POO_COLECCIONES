@@ -17,18 +17,23 @@ public class Ejercicio02 {
 	
 	private static HashMap<String , Integer> contador;
 	
-	public static void main(String[] args) {
+public static void main(String[] args) {
 		
 		String frase;
 		
-		frase=leerFrase();
-		contarApariciones(frase);
-		imprimir();
+		frase = leerFrase();
+		try {
+			contarApariciones(frase);
+			imprimir();
+		} catch(IllegalArgumentException e) {
+			System.out.println(e.getMessage());
+		} catch(Exception e) {
+			System.out.println("Error general: " + e.getMessage());
+		} 
 		
 
 
-
-}
+	}
 
 	private static void imprimir() {
 		System.out.printf("\nImprimiendo estadisticas\n");
