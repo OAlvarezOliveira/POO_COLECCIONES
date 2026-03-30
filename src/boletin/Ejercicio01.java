@@ -1,4 +1,4 @@
-package Boletin;
+package boletin;
 
 /*Ejercicio de examen pero con numeros - repetir hasta el infinito*/
 import java.util.ArrayList;

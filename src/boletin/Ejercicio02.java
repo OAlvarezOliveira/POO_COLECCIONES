@@ -1,4 +1,4 @@
-package Boletin;
+package boletin;
 
 import java.util.HashMap;
 import java.util.Scanner;
