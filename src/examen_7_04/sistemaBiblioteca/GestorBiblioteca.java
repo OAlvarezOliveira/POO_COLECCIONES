@@ -243,6 +243,9 @@ public class GestorBiblioteca {
 		prestamosActivos.put("P002", p2);
 		prestamosActivos.put("P003", p3);
 		prestamosActivos.put("P004", p4);
+		
+		
+		
 
 	}
 

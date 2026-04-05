@@ -124,7 +124,7 @@ public class GestorHotel {
 			throw new ReservaNoEncontradaException("La reserva " + codigo + " no existe");
 		}
 
-		Reserva r = reservas.get(codigo); // Directo, ya validaste
+		Reserva r = reservas.get(codigo); 
 
 		if (r.isPagado()) {
 			System.out.println("Ya estaba pagada");
